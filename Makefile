@@ -1,7 +1,7 @@
 PORT_DEVICE = localfilesystem:/data/local/debugger-socket
 PORT_LOCAL = 6000
 XPCSHELL = ./xulrunner-sdk/bin/xpcshell
-ADB = ~/bin/android-sdk/platform-tools/adb
+ADB = adb
 ID ?= ${shell basename ${FOLDER} | tr A-Z a-z}
 PLATFORM = linux-x86_64
 XULRUNNER_VERSION = 18.0.2
